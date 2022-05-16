@@ -1,9 +1,12 @@
-<div id="observablehq-threeFrame-8c3eede8"></div>
+<div id="observablehq-threeFrame-8c5f8de1"></div>
+<div id="observablehq-activity-8c5f8de1" style="display:none"></div>
+
 
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-import define from "https://api.observablehq.com/d/202b1ba93218d20b.js?v=3";
+import define from "https://api.observablehq.com/d/202b1ba93218d20b@852.js?v=3";
 new Runtime().module(define, name => {
-  if (name === "threeFrame") return new Inspector(document.querySelector("#observablehq-threeFrame-8c3eede8"));
+  if (name === "threeFrame") return new Inspector(document.querySelector("#observablehq-threeFrame-8c5f8de1"));
+  if (name === "activity") return new Inspector(document.querySelector("#observablehq-activity-8c5f8de1"));
 });
 </script>
