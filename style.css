@@ -1,5 +1,5 @@
 
-@media screen and (height < width) {
+@media screen and (width > 800px) {
 
   #tooltip {
     position: absolute;
@@ -52,7 +52,7 @@
 }
 
 
-@media screen and (height > width) {
+@media screen and (width < 800px) {
 
 
   #mainlogo {
