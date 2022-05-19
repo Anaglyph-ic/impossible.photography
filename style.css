@@ -1,20 +1,14 @@
-body{
+body {
   overflow: hidden;
 }
 
-
-
-
-@media screen {
-
-
+@media screen and (max-width: 800px) {
   #mainlogo {
     position: absolute;
     z-index: 55;
     width: 96%;
-    padding:2%;
+    padding: 2%;
   }
-
 
   #tooltip {
     position: absolute;
@@ -28,11 +22,7 @@ body{
     user-select: none;
     font-size: x-large;
   }
-  
 
-
-
-  
   .toolsection {
     border: 1px solid white;
     margin: 10px;
@@ -41,12 +31,12 @@ body{
     font-family: sans-serif;
     cursor: default;
   }
-  
+
   .toolsection:hover {
     color: black;
     background-color: white;
   }
-  
+
   #purchase {
     position: absolute;
     top: 20%;
@@ -58,11 +48,9 @@ body{
     background-color: rgba(0, 0, 0, 0.6);
     user-select: none;
   }
-  
 }
 
 @media screen and (min-width: 800px) {
-
   #tooltip {
     position: absolute;
     top: 20%;
@@ -73,15 +61,13 @@ body{
     background-color: rgba(0, 0, 0, 0.6);
     user-select: none;
   }
-  
+
   #mainlogo {
     position: absolute;
     width: 25%;
     min-width: 250px;
     padding: 2%;
   }
-  
-
 
   .toolsection {
     border: 1px solid white;
@@ -91,12 +77,12 @@ body{
     font-family: sans-serif;
     cursor: default;
   }
-  
+
   .toolsection:hover {
     color: black;
     background-color: white;
   }
-  
+
   #purchase {
     position: absolute;
     top: 20%;
@@ -108,11 +94,7 @@ body{
     background-color: rgba(0, 0, 0, 0.6);
     user-select: none;
   }
-  
-    
-
 }
-
 
 #domNav {
   position: absolute;
