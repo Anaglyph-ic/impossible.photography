@@ -2,60 +2,10 @@ body{
   overflow: hidden;
 }
 
-@media screen and (width > 800px) {
-
-  #tooltip {
-    position: absolute;
-    top: 20%;
-    width: 200px;
-    height: auto;
-    z-index: 50;
-    display: block;
-    background-color: rgba(0, 0, 0, 0.6);
-    user-select: none;
-  }
-  
-  #mainlogo {
-    position: absolute;
-    width: 25%;
-    min-width: 250px;
-    padding: 2%;
-  }
-  
 
 
-  .toolsection {
-    border: 1px solid white;
-    margin: 10px;
-    padding: 5px;
-    color: white;
-    font-family: sans-serif;
-    cursor: default;
-  }
-  
-  .toolsection:hover {
-    color: black;
-    background-color: white;
-  }
-  
-  #purchase {
-    position: absolute;
-    top: 20%;
-    left: calc(100% - 200px);
-    width: 200px;
-    height: auto;
-    z-index: 50;
-    display: block;
-    background-color: rgba(0, 0, 0, 0.6);
-    user-select: none;
-  }
-  
-    
 
-}
-
-
-@media screen and (width < 800px) {
+@media screen {
 
 
   #mainlogo {
@@ -109,6 +59,58 @@ body{
     user-select: none;
   }
   
+}
+
+@media screen and (min-width: 800px) {
+
+  #tooltip {
+    position: absolute;
+    top: 20%;
+    width: 200px;
+    height: auto;
+    z-index: 50;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.6);
+    user-select: none;
+  }
+  
+  #mainlogo {
+    position: absolute;
+    width: 25%;
+    min-width: 250px;
+    padding: 2%;
+  }
+  
+
+
+  .toolsection {
+    border: 1px solid white;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    font-family: sans-serif;
+    cursor: default;
+  }
+  
+  .toolsection:hover {
+    color: black;
+    background-color: white;
+  }
+  
+  #purchase {
+    position: absolute;
+    top: 20%;
+    left: calc(100% - 200px);
+    width: 200px;
+    height: auto;
+    z-index: 50;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.6);
+    user-select: none;
+  }
+  
+    
+
 }
 
 
