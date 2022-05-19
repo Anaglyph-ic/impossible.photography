@@ -2,7 +2,7 @@ body {
   overflow: hidden;
 }
 
-@media screen and (max-width: 800px) {
+@media all and (max-width: 800px) {
   #mainlogo {
     position: absolute;
     z-index: 55;
@@ -50,7 +50,7 @@ body {
   }
 }
 
-@media screen and (min-width: 800px) {
+@media all and (min-width: 800px) {
   #tooltip {
     position: absolute;
     top: 20%;
